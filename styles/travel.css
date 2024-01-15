@@ -1,3 +1,153 @@
-*{
-    background-color: antiquewhite;
+/* Mulish font from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding: 10px 150px;
+}
+
+
+/* primary section  */
+span {
+    color: #FF5400;
+}
+
+
+/* nav section style  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 1.23rem;
+    font-weight: 400;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+/* header banner section  */
+.banner-section {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: 100%;
+    text-align: center;
+    height: 750px;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    padding: 0px 250px 0px 205px;
+}
+
+.banner-heading {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 140px;
+}
+
+.banner-descriotion {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+
+input {
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    border: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.input-section {
+    display: inline-flex;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFFFFF4D;
+
+}
+
+.non-primary {
+    border-radius: 8px;
+    border: 0px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    color: #13132998;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Our tour section  */
+.tour-section {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+
+}
+
+.tour-section-title {
+    color: #131318;
+    font-size: 40px;
+}
+
+.popular-tour-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 800px;
+    /* width: 50%; */
+    
+    /* border: 2px solid blue; */
+}
+
+.populat-tour-image {
+    width: 540px;
+    height: 550px;
+    padding-left: 250px;
+    /* width: 50%; */
+    
+    /* border: 2px solid yellow; */
+
+    
+
+   
 }
