@@ -130,24 +130,66 @@ input {
 }
 
 .popular-tour-content {
+    color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     width: 800px;
-    /* width: 50%; */
-    
-    /* border: 2px solid blue; */
 }
 
 .populat-tour-image {
     width: 540px;
     height: 550px;
     padding-left: 250px;
-    /* width: 50%; */
-    
-    /* border: 2px solid yellow; */
+}
 
-    
+/* Choose Your Destination part  */
 
-   
+.destination-text-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 300px 10px 300px;
+}
+
+.destination-heading {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 1000px;
+}
+
+.image-column1 {
+    display: flex;
+    /* padding: 25px; */
+    gap: 20px;
+
+
+
+
+
+}
+
+.Maldives-image {
+    background-image: url('../Images/Rectangle\ 5.png');
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 700px;
+    height: 400px;
+}
+
+.Indonesia-image {
+    background-image: url('../Images/Rectangle\ 8.png');
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 700px;
+    height: 400px;
+    
 }
