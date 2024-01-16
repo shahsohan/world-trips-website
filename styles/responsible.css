@@ -12,6 +12,7 @@
 
     .banner-heading {
         font-size: 22px;
+        color: #333;
     }
 
     .banner-descriotion {
@@ -44,6 +45,54 @@ font-size: 20px;
     .tour-section-description{
         font-size: 12px;
     }
+    .populat-tour-image {
+        width: 540px;
+        height: 550px;
+        padding-left: -250px;
+    }
+    .destination-text-section{
+        text-align: left;
+
+    }
+    .image-column1{
+        flex-direction: column;
+    }
+    .image-column2{
+        flex-direction: column;
+    }
+    .image-column3{
+        flex-direction: column;
+    }
+    .choose-us-text-part{
+        text-align: center;
+        /* flex-direction: column; */
+
+    }
+    .choose-us-heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    .choose-us-description{
+        
+font-size: 12px;
+font-weight: 400;
+/* flex-direction: column; */
+
+    }
+
+  .column-container{
+    flex-direction: column;
+    width: 335px;
+height: 289px;
+  }
+  .single-column{
+  width: 335px;
+  height: 289px;
+}
+
+
+
+
 }
 
 
@@ -59,7 +108,9 @@ font-size: 20px;
 
 
 
-@media screen and (min-width:600px) and (max-width:992px) {
+@media (min-width: 993px) {
+  
+    
     nav {
         flex-direction: row;
     }
@@ -71,5 +122,4 @@ font-size: 20px;
         position: relative;
     }
 
-    ul {}
 }
