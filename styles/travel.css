@@ -8,10 +8,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    padding: 10px 150px;
+
+header {
+    padding: 10px 250px;
 }
 
+main {
+    padding: 10px 250px;
+}
 
 /* primary section  */
 span {
@@ -65,7 +69,7 @@ nav li a {
     color: #FFF;
     font-size: 70px;
     font-weight: 800;
-    padding-top: 140px;
+    padding-top: 90px;
 }
 
 .banner-descriotion {
@@ -73,7 +77,7 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 input {
@@ -119,8 +123,9 @@ input {
 /* Our tour section  */
 .tour-section {
     display: flex;
-    align-items: flex-start;
-    /* border: 2px solid red; */
+
+    align-items: center;
+
 
 }
 
@@ -133,7 +138,7 @@ input {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 25px;
     width: 800px;
 }
 
@@ -147,8 +152,8 @@ input {
 
 .destination-text-section {
     text-align: center;
-    margin-top: 50px;
-    padding: 10px 300px 10px 300px;
+    margin-top: 30px;
+    padding: 10px 250px 10px 250px;
 }
 
 .destination-heading {
@@ -165,42 +170,112 @@ input {
 }
 
 /* Choose Your Destination image part  */
-
+/* image-column1 */
 .image-column1 {
     display: flex;
-    /* padding: 25px; */
-    /* gap: 20px; */
     justify-content: space-between;
+
 }
 
 .Maldives-image {
     background-image: url('../Images/Rectangle\ 5.png');
     background-size: cover;
-    border: 2px solid black;
+    border-radius: 20px;
     background-repeat: no-repeat;
-    /* justify-content: space-between; */
     color: #fff;
-    width: 750px;
-    height: 400px;
+    text-align: center;
+    width: 682px;
+    height: 360px;
+
 }
 
 .Indonesia-image {
     background-image: url('../Images/Rectangle\ 8.png');
     background-size: cover;
-    border: 2px solid black;
+    border-radius: 20px;
     background-repeat: no-repeat;
-
     color: #fff;
-    width: 750px;
-    height: 400px;
+    text-align: center;
+    width: 684px;
+    height: 360px;
 }
+
+/* image-column2 */
+.image-column2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Srilanka-image {
+    background-image: url('../Images/Rectangle\ 6.png');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    width: 385px;
+    height: 300px;
+}
+
+.America-image {
+    background-image: url('../Images/Rectangle\ 7.png');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    width: 574px;
+    height: 300px;
+}
+
+.Kashmir-image {
+    background-image: url('../Images/Rectangle\ 9.png');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    width: 385px;
+    height: 300px;
+}
+
+/* image-column3 */
+.image-column3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bangladesh-image {
+    background-image: url('../Images/Rectangle\ 10.png');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    width: 584px;
+    height: 360px;
+}
+
+.Bandarban-image {
+    background-image: url('../Images/Rectangle\ 11.png');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    width: 784px;
+    height: 360px;
+}
+
+
 
 
 /* Why Choose Us text part */
 .choose-us-text-part {
     text-align: center;
     margin-top: 50px;
-    padding: 10px 200px 10px 200px;
+    padding: 10px 220px 10px 220px;
 }
 
 .choose-us-heading {
@@ -270,8 +345,8 @@ input {
     background-color: rgba(233, 68, 68, 0.05);
     border-radius: 15px;
     padding: 40px 40px 20px 40px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-bottom: 50px;
 
 }
@@ -293,14 +368,15 @@ input {
     display: flex;
 
 
+
 }
 
 .newsletter-text-div {
     border-radius: 15px;
     border: 1px solid #FF5400;
-    width: 500px;
+    width: 550px;
     height: 490px;
-    padding: 30px 0px 20px 60px;
+    padding: 30px 50px 25px 60px;
     margin-right: 30px;
 }
 
@@ -363,16 +439,53 @@ input {
     transform: rotate(-19.628deg);
     text-align: center;
     padding: 17px;
-    margin-top: 320px;
-    margin-left: 550px;
+    margin-top: 330px;
+    margin-left: 420px;
 }
-.rotate-peragraph{
+
+.rotate-peragraph {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
 }
-.rotate-heading{
+
+.rotate-heading {
     color: #FFF;
     font-size: 25px;
     font-weight: 800;
+}
+
+/* footer section  */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 10px 250px;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-heading {
+    color: var(--Dark-01, #131318);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 250px;
+    padding-bottom: 70px;
+    width: 65%;
+}
+
+.social-links {
+    padding-bottom: 50px;
+}
+
+.bottom-hr {
+    width: 65%;
+    margin-bottom: 50px;
 }

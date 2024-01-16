@@ -1,0 +1,75 @@
+/* responsive section  */
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+
+    }
+
+    .nav-title {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .banner-heading {
+        font-size: 22px;
+    }
+
+    .banner-descriotion {
+        font-size: 14px;
+        width: 304px;
+    }
+
+    .input-section {
+        display: flex;
+        width: 287px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .banner-section > img {
+        
+    }
+
+    /* header part end  */
+
+
+    .tour-section{
+        flex-direction: column;
+        padding: 100px;
+    }
+    .tour-section-title{
+font-size: 20px;
+    }
+    .tour-section-description{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav>ul {
+        flex-direction: row;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    ul {}
+}
