@@ -109,14 +109,348 @@ height: 289px;
 
 
 @media (min-width: 993px) {
-  
-    
-    nav {
-        flex-direction: row;
-    }
+/* nav section style  */
+nav {
+    display: flex;
+}
 
-    nav>ul {
-       
-    }
+.nav-title {
+    font-size: 50px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    font-size: 1.23rem;
+}
+
+/* header banner section  */
+.banner-section {
+    background-repeat: no-repeat;
+}
+
+
+
+.banner-heading {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-descriotion {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+input {
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    border: 0px;
+}
+
+.input-section {
+    display: inline-flex;
+    padding: 16px;
+
+}
+
+.non-primary {
+    border-radius: 8px;
+    border: 0px;
+    width: 174px;
+    height: 52px;
+}
+.btn-primary {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+}
+
+/* Our tour section  */
+
+.tour-section-title {
+    font-size: 40px;
+}
+
+.popular-tour-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 800px;
+}
+
+.populat-tour-image {
+    width: 540px;
+    height: 550px;
+    padding-left: 250px;
+}
+
+/* Choose Your Destination description part  */
+
+.destination-text-section {
+    margin-top: 30px;
+}
+
+.destination-heading {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Choose Your Destination image part  */
+/* image-column1 */
+.image-column1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Maldives-image {
+    border-radius: 20px;
+    width: 682px;
+    height: 360px;
+
+}
+
+.Indonesia-image {
+    border-radius: 20px;
+    width: 684px;
+    height: 360px;
+}
+
+/* image-column2 */
+.image-column2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Srilanka-image {
+    border-radius: 20px;
+    width: 385px;
+    height: 300px;
+}
+
+.America-image {
+    border-radius: 20px;
+    width: 574px;
+    height: 300px;
+}
+
+.Kashmir-image {
+    border-radius: 20px;
+    width: 385px;
+    height: 300px;
+}
+
+/* image-column3 */
+.image-column3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bangladesh-image {
+    border-radius: 20px;
+    width: 584px;
+    height: 360px;
+}
+
+.Bandarban-image {
+    border-radius: 20px;
+    width: 784px;
+    height: 360px;
+}
+
+
+
+
+/* Why Choose Us text part */
+.choose-us-text-part {
+    margin-top: 50px;
+    padding: 10px 220px 10px 220px;
+}
+
+.choose-us-heading {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* column part  */
+.column-container {
+    margin-top: 50px;
+
+}
+
+.hotel-container {
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 40px;
+}
+
+.hotel-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-container {
+    border-radius: 15px;
+    padding: 40px;
+    margin-left: 10px;
+}
+
+.service-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.service-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* single column  */
+.single-column {
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 40px 40px 20px 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+
+}
+
+.single-column-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.single-column-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* newsletter section  */
+.newsletter-container {
+    display: flex;
+}
+
+.newsletter-text-div {
+    border-radius: 15px;
+    width: 550px;
+    height: 490px;
+    padding: 30px 50px 25px 60px;
+    margin-right: 30px;
+}
+
+.input-class {
+    border-radius: 8px;
+    width: 376px;
+    height: 52px;
+
+}
+
+.hr-newsletter {
+    text-align: start;
+    width: 390px;
+    margin-bottom: 25px;
+    margin-left: -0px;
+}
+
+.heading-newsletter {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-description {
+    font-weight: 400;
+    line-height: 26px;
+    width: 400px;
+    padding: 0px 0px 20px 0px;
+}
+
+.subscribe-btn {
+    border-radius: 8px;
+    width: 393px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newsletter-image-div {
+    margin-left: 30px;
+    border-radius: 20px;
+    width: 980px;
+    height: 539px;
+}
+
+.rotate-text {
+    border-radius: 15px;
+    width: 300px;
+    height: 110px;
+    transform: rotate(-19.628deg);
+    padding: 17px;
+    margin-top: 330px;
+    margin-left: 420px;
+}
+
+.rotate-peragraph {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rotate-heading {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* footer section  */
+footer {
+    padding: 10px 250px;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-heading {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 250px;
+    padding-bottom: 70px;
+    width: 65%;
+}
+
+.social-links {
+    padding-bottom: 50px;
+}
+
+.bottom-hr {
+    width: 65%;
+    margin-bottom: 50px;
+}
 
 }
